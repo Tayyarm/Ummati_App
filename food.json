@@ -1,0 +1,2715 @@
+{
+  "addresses" :[
+    {
+        "name": "Ashoka Grill",
+        "address": "1436 Flatbush Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Lutheran Halal Café",
+        "address": "5121 2nd Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Istanbul Park",
+        "address": "293 7th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN", "TURKISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "Kennedy Fried Chicken",
+        "address": "1519 Fulton Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Sakman Deli & Grill",
+        "address": "6821 4th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Kashmir Grill",
+        "address": "816 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 5.0
+    },
+    {
+        "name": "Opera Café Lounge",
+        "address": "2255 Emmons Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "Kofte Piyaz",
+        "address": "881 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "Khan's Gyro & Fried Chicken",
+        "address": "1947 Bath Avenue",
+        "town": "New York",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Sweetness USA",
+        "address": "1150 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PAKISTANI", "BAKERY"],
+        "rating": 5.0
+    },
+    {
+        "name": "Java Rijsttafel",
+        "address": "455 7th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["INDONESIAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Beyti Turkish Kebab",
+        "address": "414 Brighton Beach Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "Dar 525",
+        "address": "525 Grand Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "David's Brisket House & Deli",
+        "address": "533 Nostrand Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["JEWISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "Your House Café",
+        "address": "6916 4th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN", "AMERICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Anatolian Gyro",
+        "address": "2623 East 16th Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH", "MIDDLE EASTERN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Taheni Mediterranean Grill",
+        "address": "224 4th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Brooklyn Halal Grill",
+        "address": "1148 Liberty Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Momo's Mediterranean Grill",
+        "address": "29 101st Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AFGHAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Burger Box",
+        "address": "2930 Avenue X",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Tashkent Supermarket",
+        "address": "713 Brighton Beach Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["RUSSIAN", "UZBEK", "HALAL MEAT"],
+        "rating": 5.0
+    },
+    {
+        "name": "Birria Manía",
+        "address": "7508 3rd Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEXICAN"],
+        "rating": 5.0
+    },
+    {
+        "name": "Dave's Garden Halal Chinese",
+        "address": "7404 3rd Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["CHINESE"],
+        "rating": 5.0
+    },
+    {
+        "name": "My House Burgers & Shakes",
+        "address": "1650 Sheepshead Bay Road",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.8
+    },
+    {
+        "name": "Ali's Roti Shop",
+        "address": "1267 Fulton Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["CARIBBEAN"],
+        "rating": 4.6
+    },
+    {
+        "name": "Gyro King",
+        "address": "1017 Foster Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.6
+    },
+    {
+        "name": "Pakiza",
+        "address": "1032 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.5
+    },
+    {
+        "name": "Moon Café",
+        "address": "496 Atlantic Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["DELI"],
+        "rating": 4.5
+    },
+    {
+        "name": "Café Kashker",
+        "address": "1141 Brighton Beach Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["RUSSIAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Sultan Restaurant",
+        "address": "238 Kings Highway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "Holy Cow",
+        "address": "1724 Sheepshead Bay Road",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Gyro & Kebab House",
+        "address": "86 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "Island Burger",
+        "address": "1384 Broadway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Uranus",
+        "address": "523 Kings Highway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "Turkish Cultural Center",
+        "address": "2825 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "India Palace",
+        "address": "1145 Church Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["INDIAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Al Aqsa Bakery & Restaurant",
+        "address": "6918 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PALESTINIAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Köşebaşı Turkish Restaurant",
+        "address": "304 Ocean Parkway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "Brothers Shawarma & Grill",
+        "address": "601 Brighton Beach Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["TURKISH"],
+        "rating": 4.5
+    },
+    {
+        "name": "Perizia Kosher Pizza",
+        "address": "1379 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PIZZA"],
+        "rating": 4.5
+    },
+    {
+        "name": "Marrakech Restaurant",
+        "address": "180 Atlantic Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MOROCCAN"],
+        "rating": 4.5
+    },
+    {
+        "name": "Pasha Halal",
+        "address": "100 Kenmare Street",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+    },
+    {
+        "name": "La Maison Du Couscous",
+        "address": "484 77th Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MOROCCAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Bangladesh Deli & Grocery",
+        "address": "563 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["DELI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Arabian Nights",
+        "address": "207 Kings Highway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Kobee Factory",
+        "address": "5601 8th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Blue Carpet",
+        "address": "7518 3rd Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Beverley Grocery & Halal Meat",
+        "address": "221 Beverley Road",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["GROCERY", "HALAL MEAT"],
+        "rating": 4.4
+    },
+    {
+        "name": "Bab Al Yemen",
+        "address": "413 Bay Ridge Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Gyro Hut",
+        "address": "6834 4th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Dafni Greek Taverna",
+        "address": "326 W 42nd Street",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["GREEK"],
+        "rating": 4.4
+    },
+    {
+        "name": "Fatoosh Pitza & Grill",
+        "address": "330 Hicks Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Al Haramain",
+        "address": "6807 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Bukhari Restaurant",
+        "address": "1321 St Johns Place",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Wafa's Express",
+        "address": "155 3rd Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["LEBANESE"],
+        "rating": 4.4
+    },
+    {
+        "name": "The Halal Spot",
+        "address": "1101 Avenue M",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Kubeh",
+        "address": "464 Avenue of the Americas",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["ISRAELI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Mitsuyoshi",
+        "address": "83-08 Broadway",
+        "town": "Elmhurst",
+        "state": "NY",
+        "region": "Queens",
+        "typeOfFood": ["JAPANESE"],
+        "rating": 4.4
+    },
+    {
+        "name": "Boishakhi",
+        "address": "29-14 36th Avenue",
+        "town": "Astoria",
+        "state": "NY",
+        "region": "Queens",
+        "typeOfFood": ["BANGLADESHI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Deshi Biryani",
+        "address": "73-19 37th Road",
+        "town": "Jackson Heights",
+        "state": "NY",
+        "region": "Queens",
+        "typeOfFood": ["BANGLADESHI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Yemen Café",
+        "address": "176 Atlantic Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["YEMENI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Mango King",
+        "address": "1468 52nd Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["INDIAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Abu's Homestyle Bakery",
+        "address": "1184 Fulton Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["BAKERY"],
+        "rating": 4.4
+    },
+    {
+        "name": "Alba Lounge & Restaurant",
+        "address": "2349 65th Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Salam Restaurant",
+        "address": "104 West 13th Street",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["PALESTINIAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Yemen Café",
+        "address": "7130 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["YEMENI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Imran Grill",
+        "address": "2268 65th Street",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.4
+    },
+    {
+        "name": "Spoon House",
+        "address": "565 Kings Highway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["RUSSIAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Nargis Café",
+        "address": "2818 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["UZBEK"],
+        "rating": 4.4
+    },
+    {
+        "name": "Kabul Kabab House",
+        "address": "1153 Coney Island Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Mediterranean Food",
+        "address": "328 Avenue X",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "King of Falafel",
+        "address": "30th Ave and Broadway",
+        "town": "Queens",
+        "state": "NY",
+        "region": "Queens",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Kushari Lux",
+        "address": "855 5th Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["EGYPTIAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Mediterranean Gyro Grill",
+        "address": "123 4th Avenue",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Great Wall Chinese Restaurant",
+        "address": "5518 Church Avenue",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["CHINESE"],
+        "rating": 4.4
+    },
+    {
+        "name": "Golden Fried Chicken",
+        "address": "714 Kings Highway",
+        "town": "Brooklyn",
+        "state": "NY",
+        "region": "Brooklyn",
+        "typeOfFood": ["FRIED CHICKEN"],
+        "rating": 4.4
+    },
+    {
+        "name": "King Kabab Restaurant",
+        "address": "72 East 125th Street",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+    },
+    {
+        "name": "Hot Bread Kitchen",
+        "address": "1590 Park Avenue",
+        "town": "New York",
+        "state": "NY",
+        "region": "Manhattan",
+        "typeOfFood": ["BAKERY"],
+        "rating": 4.4
+    },
+    {
+        "name": "United Halal Meat & Grocery",
+        "address": "33 Somerset Street",
+        "town": "Plainfield",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["HALAL MEAT", "GROCERIES", "DELI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Khan Kabab Express",
+        "address": "2021 New Jersey 27",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "L'Affaire Bakery (II)",
+        "address": "312 Rues Lane",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY"],
+        "rating": 5.0
+      },
+      {
+        "name": "Café Shalimar/Crown Fried Chicken",
+        "address": "145 Amboy Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Dakshin Express",
+        "address": "1689 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN", "INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Desi Wok",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Punjabi Junction",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hyd Bawarchi Biryani",
+        "address": "1585 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hot Breads Bakery & Café",
+        "address": "1700 Oak Tree Avenue, Unit 12",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pita Grill & Creperie",
+        "address": "66 Mountain Blvd.",
+        "town": "Warren",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Lemon",
+        "address": "3475 US Highway 9 North",
+        "town": "Freehold",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["ITALIAN", "MEDITERRANEAN", "GREEK"],
+        "rating": 5.0
+      },
+      {
+        "name": "Flame Kabob House",
+        "address": "702 Route 35",
+        "town": "Neptune City",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MIDDLE EASTERN", "AFGHAN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Rumi's Palace",
+        "address": "1897 Woodbridge Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI", "AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "2 John F Kennedy Blvd.",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Cambo Box",
+        "address": "342 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["CAMBODIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Burgerim",
+        "address": "430 Market Street, Unit 1",
+        "town": "Elmwood Park",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Knights Express Pizza & Grill",
+        "address": "43A Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Kurry Zone",
+        "address": "120 Cedar Grove Lane",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "THAI", "INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Flame Kabob House",
+        "address": "986 Easton Avenue",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN", "MIDDLE EASTERN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Thai Lotus",
+        "address": "2240 U.S. 130",
+        "town": "North Brunswick Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Chai Chenak",
+        "address": "349a George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Groovy Pizza & Café",
+        "address": "312 Broad Street",
+        "town": "Florence Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["TURKISH", "ITALIAN", "MEDITERRANEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pukhtun Afghan Cuisine",
+        "address": "135 Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Smashville",
+        "address": "377A George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Jinsoy",
+        "address": "335 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "MONGOLIAN", "HIMALAYAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "1020 New Jersey 18",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 4.9
+      },
+      {
+        "name": "United Halal Meat & Grocery",
+        "address": "33 Somerset Street",
+        "town": "Plainfield",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["HALAL MEAT", "GROCERIES", "DELI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Khan Kabab Express",
+        "address": "2021 New Jersey 27",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "L'Affaire Bakery (II)",
+        "address": "312 Rues Lane",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY"],
+        "rating": 5.0
+      },
+      {
+        "name": "Café Shalimar/Crown Fried Chicken",
+        "address": "145 Amboy Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Dakshin Express",
+        "address": "1689 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN", "INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Desi Wok",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Punjabi Junction",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hyd Bawarchi Biryani",
+        "address": "1585 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hot Breads Bakery & Café",
+        "address": "1700 Oak Tree Avenue, Unit 12",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pita Grill & Creperie",
+        "address": "66 Mountain Blvd.",
+        "town": "Warren",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Lemon",
+        "address": "3475 US Highway 9 North",
+        "town": "Freehold",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["ITALIAN", "MEDITERRANEAN", "GREEK"],
+        "rating": 5.0
+      },
+      {
+        "name": "Flame Kabob House",
+        "address": "702 Route 35",
+        "town": "Neptune City",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MIDDLE EASTERN", "AFGHAN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Rumi's Palace",
+        "address": "1897 Woodbridge Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI", "AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "2 John F Kennedy Blvd.",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Cambo Box",
+        "address": "342 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["CAMBODIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Burgerim",
+        "address": "430 Market Street, Unit 1",
+        "town": "Elmwood Park",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Knights Express Pizza & Grill",
+        "address": "43A Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Kurry Zone",
+        "address": "120 Cedar Grove Lane",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "THAI", "INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Thai Lotus",
+        "address": "2240 U.S. 130",
+        "town": "North Brunswick Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Chai Chenak",
+        "address": "349a George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Groovy Pizza & Café",
+        "address": "312 Broad Street",
+        "town": "Florence Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["TURKISH", "ITALIAN", "MEDITERRANEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pukhtun Afghan Cuisine",
+        "address": "135 Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Smashville",
+        "address": "377A George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Jinsoy",
+        "address": "335 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "MONGOLIAN", "HIMALAYAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "1020 New Jersey 18",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 4.9
+      },
+      {
+        "name": "Babur Garden",
+        "address": "845 West Park Avenue",
+        "town": "Asbury Park",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN", "MIDDLE EASTERN"],
+        "rating": 4.9
+      },  
+      {
+        "name": "United Halal Meat & Grocery",
+        "address": "33 Somerset Street",
+        "town": "Plainfield",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["HALAL MEAT", "GROCERIES", "DELI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Khan Kabab Express",
+        "address": "2021 New Jersey 27",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+    
+      {
+        "name": "L'Affaire Bakery (II)",
+        "address": "312 Rues Lane",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY"],
+        "rating": 5.0
+      },
+      {
+        "name": "Café Shalimar/Crown Fried Chicken",
+        "address": "145 Amboy Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Dakshin Express",
+        "address": "1689 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN", "INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Desi Wok",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Punjabi Junction",
+        "address": "1396 Oak Tree Avenue",
+        "town": "Woodbridge Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hyd Bawarchi Biryani",
+        "address": "1585 Oak Tree Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hot Breads Bakery & Café",
+        "address": "1700 Oak Tree Avenue, Unit 12",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["BAKERY", "INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pita Grill & Creperie",
+        "address": "66 Mountain Blvd.",
+        "town": "Warren",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Lemon",
+        "address": "3475 US Highway 9 North",
+        "town": "Freehold",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["ITALIAN", "MEDITERRANEAN", "GREEK"],
+        "rating": 5.0
+      },
+      {
+        "name": "Flame Kabob House",
+        "address": "702 Route 35",
+        "town": "Neptune City",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["MIDDLE EASTERN", "AFGHAN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Rumi's Palace",
+        "address": "1897 Woodbridge Avenue",
+        "town": "Edison",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI", "AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "2 John F Kennedy Blvd.",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Cambo Box",
+        "address": "342 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["CAMBODIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Burgerim",
+        "address": "430 Market Street, Unit 1",
+        "town": "Elmwood Park",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Knights Express Pizza & Grill",
+        "address": "43A Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Kurry Zone",
+        "address": "120 Cedar Grove Lane",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "THAI", "INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Flame Kabob House",
+        "address": "986 Easton Avenue",
+        "town": "Franklin Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN", "MIDDLE EASTERN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Thai Lotus",
+        "address": "2240 U.S. 130",
+        "town": "North Brunswick Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Chai Chenak",
+        "address": "349a George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Groovy Pizza & Café",
+        "address": "312 Broad Street",
+        "town": "Florence Township",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["TURKISH", "ITALIAN", "MEDITERRANEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Pukhtun Afghan Cuisine",
+        "address": "135 Easton Avenue",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Smashville",
+        "address": "377A George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Jinsoy",
+        "address": "335 George Street",
+        "town": "New Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["INDO-CHINESE", "MONGOLIAN", "HIMALAYAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "N'Thai Palace",
+        "address": "1020 New Jersey 18",
+        "town": "East Brunswick",
+        "state": "NJ",
+        "region": "Central Jersey",
+        "typeOfFood": ["THAI"],
+        "rating": 4.9
+      },
+      {
+        "name": "Halal Gyro King",
+        "address": "North 36th Street & Market Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Elevation Burger",
+        "address": "201 Plaza Drive",
+        "town": "Collegeville",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Halal Kabab & Curry",
+        "address": "7233 Marshall Road",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "PAKISTANI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Isot",
+        "address": "622 South 6th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["TURKISH", "MEDITERRANEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Zaika Kabab & Curry",
+        "address": "8333 Bristol Pike",
+        "town": "Levittown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN", "BANGLADESHI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Turkish Kebab House",
+        "address": "613 South 4th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+      },
+      {
+        "name": "Byrsa Bistro",
+        "address": "128 Glen Mills Road",
+        "town": "Glen Mills",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN", "TUNISIAN", "ITALIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Little Istanbul",
+        "address": "11726 Bustleton Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["TURKISH"],
+        "rating": 5.0
+      },
+      {
+        "name": "Mecca Halal Food Truck",
+        "address": "3021 Grays Ferry Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Alamodak Restaurant & Lounge",
+        "address": "161 Cecil B. Moore Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Rasa Indian Cuisine",
+        "address": "136 Painters Crossing",
+        "town": "Glen Mills",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["BANGLADESHI", "PAKISTANI", "INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Sweets & Curry House",
+        "address": "7630 Castor Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN", "BANGLADESHI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Kabobi",
+        "address": "10600 Roosevelt Blvd.",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN", "BBQ"],
+        "rating": 5.0
+      },
+      {
+        "name": "Paprica Grill",
+        "address": "811 Sansom Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["TURKISH", "MEDITERRANEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "House of Biryanis & Kebabs",
+        "address": "309 Lancaster Avenue, Suite C1",
+        "town": "Malvern",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Hunger Burger",
+        "address": "1136 Arch Street, Unit 427",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Alrayyan Food Market",
+        "address": "121 South 43rd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["HALAL MEAT", "GROCERIES", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Tang's Halal Chinese",
+        "address": "2223 Ridge Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["CHINESE"],
+        "rating": 5.0
+      },
+      {
+        "name": "Nano's Fried Chicken",
+        "address": "275 East Main Street",
+        "town": "Norristown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Bubbakoo's Burritos",
+        "address": "2550 Grant Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["FUSION", "AMERICAN", "MEXICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Yeadon Pizzeria & Fried Chicken",
+        "address": "521 Church Lane",
+        "town": "Yeadon",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "ITALIAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Suzani",
+        "address": "1916 Welsh Road",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["UZBEK", "RUSSIAN", "EUROPEAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Halal Kitch",
+        "address": "2001 Market Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Robola Pizza",
+        "address": "1999 1/2 North 52nd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "AMERICAN"],
+        "rating": 5.0
+      },
+      {
+        "name": "Ajwa Halal",
+        "address": "211 South 69th Street",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN", "BANGLADESHI"],
+        "rating": 5.0
+      },
+      {
+        "name": "Kebab USA",
+        "address": "9867 Bustleton Avenue, Unit C",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["UZBEK", "TURKISH"],
+        "rating": 5.0
+      },
+      {
+        "name": "Figs",
+        "address": "2501 Meredith Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.8
+      },
+      {
+        "name": "Philly Chicken N' Rice",
+        "address": "North 33rd St & Market Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.8
+      },
+      {
+        "name": "New York Halal Food",
+        "address": "900 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 4.7
+      },
+      {
+        "name": "Aroma Cuisine",
+        "address": "10104 West Valley Forge Circle",
+        "town": "King of Prussia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MEDITERRANEAN"],
+        "rating": 4.7
+      },
+      {
+        "name": "Kilimanjaro",
+        "address": "4519 Baltimore Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["SENEGALESE", "WEST AFRICAN"],
+        "rating": 4.6
+      },
+      {
+        "name": "New Germantown Pizza",
+        "address": "4923 Germantown Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "Desi Chaat House",
+        "address": "501 South 42nd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.5
+      },
+      {
+        "name": "European Republic",
+        "address": "213 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["BELGIAN", "MIDDLE EASTERN", "AFGHAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "The Persian Grill",
+        "address": "637 Germantown Pike",
+        "town": "Lafayette Hill",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PERSIAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "iMunch Café",
+        "address": "1233 North 31st Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "Lincoln Fried Chicken",
+        "address": "2614 West Girard Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": [],
+        "rating": 4.5
+      },
+      {
+        "name": "AFC Kitchen",
+        "address": "700 Macdade Blvd.",
+        "town": "Collingdale",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "PAKISTANI", "INDIAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "Indian Sizzler",
+        "address": "3651 Lancaster Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": 4.5
+      },
+      {
+        "name": "Saad's Halal Place",
+        "address": "4500 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.4
+      },
+      {
+        "name": "New Punjab",
+        "address": "6937 Ludlow Street",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.4
+      },
+      {
+        "name": "Manakeesh Café Bakery",
+        "address": "4420 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["LEBANESE"],
+        "rating": 4.4
+      },
+      {
+        "name": "Sansom Kabob House",
+        "address": "1300 South Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AFGHAN"],
+        "rating": 4.3
+      },
+      {
+        "name": "Nanee's Kitchen",
+        "address": "51 North 12th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.3
+      },
+      {
+        "name": "Makkah Market",
+        "address": "4249 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["HALAL MEAT", "MIDDLE EASTERN", "GROCERIES"],
+        "rating": 4.3
+      },
+      {
+        "name": "AlSalam Pizzeria",
+        "address": "5101 Germantown Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN", "ITALIAN"],
+        "rating": 4.1
+      },
+      {
+        "name": "Kabab Café",
+        "address": "231 East Swedesford Road",
+        "town": "Wayne",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PERSIAN"],
+        "rating": 4.1
+      },
+      {
+        "name": "Wazobia Restaurant & Grocery",
+        "address": "616 North 11th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["WEST AFRICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Jerusalem Restaurant",
+        "address": "1439 Snyder Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Victoria's Kitchen",
+        "address": "7304 Ogontz Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["SOUL FOOD"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Salem Grille & Halal Meat",
+        "address": "2923 Penn Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Hummus Grill",
+        "address": "3931 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": [],
+        "rating": "not rated"
+      },
+      {
+        "name": "Desi Village",
+        "address": "4527 Baltimore Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Wah-Gi-Wah",
+        "address": "4447 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.0
+      },
+      {
+        "name": "Rana Halal Cuisine",
+        "address": "3513 Lancaster Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Food Cart",
+        "address": "15 South 11th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "7 Seas Seafood/Broad Street Cheesesteaks",
+        "address": "2739 North Broad Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Bella's Breakfast & Lunch",
+        "address": "2159 Ridge Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Zaika",
+        "address": "819 Garrett Road",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI"],
+        "rating": 4.0
+      },
+      {
+        "name": "Biryani City",
+        "address": "3140 Ridge Pike",
+        "town": "Norristown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": 4.0
+      },
+      {
+        "name": "Saffron",
+        "address": "3240 North Broad Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": [],
+        "rating": "not rated"
+      },
+      {
+        "name": "Jaffron",
+        "address": "11 West Bridge Street",
+        "town": "New Hope",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Haqq Halal Restaurant",
+        "address": "462 East High Street",
+        "town": "Pottstown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Lovash Indian Cuisine",
+        "address": "236 South Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": [],
+        "rating": "not rated"
+      },
+      {
+        "name": "Kamal's Middle Eastern Specialties",
+        "address": "51 North 12th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": [],
+        "rating": "not rated"
+      },
+      {
+        "name": "Indian Hut",
+        "address": "1967 Street Road",
+        "town": "Bensalem",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["SOUTH INDIAN", "PAKISTANI", "NORTH INDIAN"],
+        "rating": 4.0
+      },
+      {
+        "name": "Hardena Resto Waroeng Surabaya",
+        "address": "1754 South Hicks Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDONESIAN"],
+        "rating": 4.0
+      },
+      {
+        "name": "Shawarma Kebab",
+        "address": "38 East Market Street",
+        "town": "West Chester",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 4.0
+      },
+      {
+        "name": "Sofra",
+        "address": "8130 Bristol Pike",
+        "town": "Levittown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Nirvana Indian Bistro",
+        "address": "417 Germantown Pike",
+        "town": "Lafayette Hill",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Crown Fried Chicken",
+        "address": "7186 Marshall Road",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Fogo de Chão",
+        "address": "1337 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["STEAKHOUSE", "AMERICAN", "BRAZILIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Fogo de Chão",
+        "address": "155 Main Street",
+        "town": "King of Prussia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["STEAKHOUSE", "BRAZILIAN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Tex's Chicken & Burgers",
+        "address": "2226 Cottman Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 4.0
+      },
+      {
+        "name": "Napoli Pizza & Pasta",
+        "address": "8445 West Chester Pike",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "General Tso Fried Chicken",
+        "address": "2445 Germantown Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEXICAN", "CHINESE", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Tandoori Bakery",
+        "address": "842 Red Lion Road, Unit 17",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["UZBEK", "BAKERY"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Pronto Uno Pizza",
+        "address": "5809 Rising Sun Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "1906 Fine Dining at Longwood Gardens",
+        "address": "1001 Longwood Road",
+        "town": "Kennett Square",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Cleopatra Café",
+        "address": "4145 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Masala Zone",
+        "address": "316 Horsham Road",
+        "town": "Horsham",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "House of Biryanis & Kebabs",
+        "address": "2541 West Main Street",
+        "town": "Norristown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Biryani Bowl",
+        "address": "1967 Norristown Road",
+        "town": "Maple Glen",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Saffron Indian Kitchen",
+        "address": "145 Montgomery Avenue",
+        "town": "Bala Cynwyd",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Pita Chip",
+        "address": "1600 North Broad Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Taza Bazaar & Kitchen",
+        "address": "2125 West Main Street",
+        "town": "Norristown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["BANGLADESHI", "GROCERIES", "PAKISTANI"],
+        "rating": 4.0
+      },
+      {
+        "name": "Cava Grill",
+        "address": "1713 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["GREEK", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Mood Café",
+        "address": "4618 Baltimore Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "House of India",
+        "address": "121 Market Street",
+        "town": "Collegeville",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Damas Mediterranean Grill",
+        "address": "260 Pottstown Pike",
+        "town": "Exton",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN", "LEBANESE", "SYRIAN"],
+        "rating": 4.0
+      },
+      {
+        "name": "The Halal Guys",
+        "address": "2550 Grant Avenue, Suite 320",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "The Halal Guys",
+        "address": "1016 Race Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "The Halal Guys",
+        "address": "150 West Dekalb Pike",
+        "town": "King of Prussia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Café Baladi",
+        "address": "235 Lancaster Avenue",
+        "town": "Malvern",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["LEBANESE"],
+        "rating": 4.0
+      },
+      {
+        "name": "Pita Chip",
+        "address": "3601 Market Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "South Philly Halal Food",
+        "address": "2434 West Passyunk Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Chima Steakhouse",
+        "address": "1901 John F Kennedy Blvd.",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["STEAKHOUSE", "BRAZILIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Crown Chicken & Burger",
+        "address": "600 South Broad Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "AMERICAN", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Krispy Krunchy Chicken, Pizza & Grill",
+        "address": "916 Kerlin Street",
+        "town": "Chester",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Cherish",
+        "address": "7060 Germantown Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["CARIBBEAN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Sahara Grill",
+        "address": "1334 Walnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Gennaro's II",
+        "address": "1610 West Main Street, Unit 102",
+        "town": "Collegeville",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Samarkand Steakhouse",
+        "address": "1135 Bustleton Pike, Unit 2",
+        "town": "Lower Southampton Township",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["UZBEK", "MIDDLE EASTERN", "RUSSIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Sham",
+        "address": "2844 West Moreland Road",
+        "town": "Upper Moreland Township",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Sham",
+        "address": "201 City Avenue",
+        "town": "Lower Merion Township",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Sham",
+        "address": "5228 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Sham",
+        "address": "306 West Chelten Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Al-Sham",
+        "address": "337 Spring Garden Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Clark's Crispy Chicken",
+        "address": "713 East Lincoln Highway",
+        "town": "Coatesville",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Thanal Indian Tavern",
+        "address": "1939 Arch Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Park Pizza",
+        "address": "434 South 52nd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Fridas Mexican Grill",
+        "address": "276 Exton Square Mall",
+        "town": "Exton",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEXICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Wayback Burgers",
+        "address": "3483 East Lincoln Highway",
+        "town": "Thorndale",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Lazeez Indian Cuisine",
+        "address": "763 South 8th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "PAKISTANI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Hangry Joe's Hot Chicken",
+        "address": "300 Market Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "KOREAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Hyderabadi Dhaba",
+        "address": "4323 East Lincoln Highway",
+        "town": "Downingtown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "PAKISTANI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Kurry Shack Old City",
+        "address": "6 North 3rd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Aya Kitchen",
+        "address": "6801 Frankford Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "MEDITERRANEAN", "PAKISTANI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Aya Kitchen",
+        "address": "2000 Valley Forge Circle, Unit 144",
+        "town": "King of Prussia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "MEDITERRANEAN", "PAKISTANI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Aya Kitchen",
+        "address": "17 Franklin Mills Blvd.",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["ITALIAN", "PAKISTANI", "MEDITERRANEAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Indian Char House",
+        "address": "4612 Woodland Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "PAKISTANI", "BANGLADESHI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Naz's Halal Food",
+        "address": "3300 Fairmount Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN", "MIDDLE EASTERN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Tex's Chicken & Burgers",
+        "address": "5818 Woodland Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Tex's Chicken & Burgers",
+        "address": "3960 Kensington Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Tex's Chicken & Burgers",
+        "address": "3901 Veterans Highway",
+        "town": "Levittown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Zara Halal Grill",
+        "address": "1224 Franklin Mills Circle",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Madina Kitchen",
+        "address": "88 South 69th Street",
+        "town": "Upper Darby",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["PAKISTANI", "INDIAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Halal Fusion Chinese",
+        "address": "2748 Germantown Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["CHINESE", "FUSION"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Hadramout",
+        "address": "136 South 45th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["YEMENI"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Halal Fusion Chinese",
+        "address": "723 East Chelten Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["CHINESE", "FUSION"],
+        "rating": "not rated"
+      },
+      {
+        "name": "IDK Smash Burgerz & Nashville Hot Chicken",
+        "address": "6 North 3rd Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "2508 West Main Street",
+        "town": "Norristown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "7300 Roosevelt Blvd.",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "2327 Cottman Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "2568 Knights Road",
+        "town": "Bensalem Township",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "16 South 40th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "7370 Limekiln Pike",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "4627 Woodland Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Asad's Hot Chicken",
+        "address": "816 North Charlotte Street",
+        "town": "Pottstown",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": "not rated"
+      },
+      {
+        "name": "Caspian Grille & Catering",
+        "address": "539 Germantown Pike",
+        "town": "Whitemarsh",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN"],
+        "rating": 3.9
+      },
+      {
+        "name": "Papa Sam",
+        "address": "6398 Castor Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 3.8
+      },
+      {
+        "name": "Ginos Halal Pizza & Steak",
+        "address": "2810 West 9th Street",
+        "town": "Chester",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["AMERICAN"],
+        "rating": 3.8
+      },
+      {
+        "name": "Kabobeesh",
+        "address": "4201 Chestnut Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["INDIAN", "PAKISTANI", "BANGLADESHI"],
+        "rating": 3.8
+      },
+      {
+        "name": "Al-Sham",
+        "address": "6738 Bustleton Avenue",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MEDITERRANEAN", "AMERICAN"],
+        "rating": 3.8
+      },
+      {
+        "name": "Alyan's",
+        "address": "603 South 4th Street",
+        "town": "Philadelphia",
+        "state": "PA",
+        "region": "Philadelphia Area",
+        "typeOfFood": ["MIDDLE EASTERN"],
+        "rating": 3.6
+      }
+ ]
+}
+  
