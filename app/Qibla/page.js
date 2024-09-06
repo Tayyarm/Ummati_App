@@ -1,14 +1,12 @@
 'use client';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {
   Container,
   Typography,
   CircularProgress,
   Paper,
-  Grid,
   Box,
-  IconButton,
   Button,
   Dialog,
   DialogActions,
@@ -17,7 +15,6 @@ import {
 } from '@mui/material';
 import { styled } from '@mui/system';
 import { useRouter } from 'next/navigation';
-import CompassCalibrationIcon from '@mui/icons-material/CompassCalibration';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import HomeIcon from '@mui/icons-material/Home';
 
@@ -50,27 +47,15 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
   padding: '20px',
   marginBottom: '20px',
   backgroundColor: theme.palette.background.paper,
-  position: 'relative',
   textAlign: 'center',
-  width: '250px',
-  height: '250px',
-  margin: '0 auto',
-  borderRadius: '50%',
+  borderRadius: '8px',
   boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
-}));
-
-const DirectionLabel = styled(Typography)(({ theme }) => ({
-  position: 'absolute',
-  fontSize: '1rem',
-  fontWeight: 'bold',
-  color: theme.palette.text.primary,
 }));
 
 const Qibla = () => {
   const [qiblaData, setQiblaData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [deviceDirection, setDeviceDirection] = useState(0);
   const [location, setLocation] = useState(null);
   const [openLocationDialog, setOpenLocationDialog] = useState(false);
   const router = useRouter();
@@ -125,28 +110,17 @@ const Qibla = () => {
     );
   }, [fetchQiblaData]);
 
-  useEffect(() => {
-    const handleOrientation = (event) => {
-      setDeviceDirection(event.alpha || 0);
-    };
-
-    if (window.DeviceOrientationEvent) {
-      window.addEventListener('deviceorientation', handleOrientation, true);
-    }
-
-    return () => {
-      if (window.DeviceOrientationEvent) {
-        window.removeEventListener('deviceorientation', handleOrientation);
-      }
-    };
-  }, []);
-
   const handleAutoLocate = () => {
     if (navigator.geolocation) {
       setOpenLocationDialog(true);
     } else {
       setError('Geolocation is not supported by this browser.');
     }
+  };
+
+  const getDirectionDescription = (angle) => {
+    const directions = ['North', 'Northeast', 'East', 'Southeast', 'South', 'Southwest', 'West', 'Northwest'];
+    return directions[Math.round(angle / 45) % 8];
   };
 
   return (
@@ -193,30 +167,17 @@ const Qibla = () => {
               <CircularProgress color="primary" />
             </Box>
           ) : qiblaData ? (
-            <>
-              <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2, color: 'text.primary' }}>
-                Direction to Makkah: {qiblaData.direction.toFixed(2)}Â°
+            <StyledPaper>
+              <Typography variant="body1" sx={{ color: 'text.secondary', mb: 2 }}>
+                The Qibla (direction to Makkah) from your current location is:
               </Typography>
-              <StyledPaper>
-                <DirectionLabel style={{ top: '10px', left: '50%', transform: 'translateX(-50%)' }}>N</DirectionLabel>
-                <DirectionLabel style={{ bottom: '10px', left: '50%', transform: 'translateX(-50%)' }}>S</DirectionLabel>
-                <DirectionLabel style={{ top: '50%', left: '10px', transform: 'translateY(-50%)' }}>W</DirectionLabel>
-                <DirectionLabel style={{ top: '50%', right: '10px', transform: 'translateY(-50%)' }}>E</DirectionLabel>
-                <Grid container spacing={2} alignItems="center" justifyContent="center" style={{ height: '100%' }}>
-                  <Grid item>
-                    <IconButton>
-                      <CompassCalibrationIcon
-                        style={{
-                          transform: `rotate(${qiblaData.direction - deviceDirection}deg)`,
-                          fontSize: 120,
-                          color: theme.palette.primary.main,
-                        }}
-                      />
-                    </IconButton>
-                  </Grid>
-                </Grid>
-              </StyledPaper>
-            </>
+              <Typography variant="h4" sx={{ color: 'primary.main', fontWeight: 'bold', mb: 2 }}>
+                {qiblaData.direction.toFixed(2)}Â° {getDirectionDescription(qiblaData.direction)}
+              </Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                Face this direction for prayer.
+              </Typography>
+            </StyledPaper>
           ) : null}
         </Container>
 
