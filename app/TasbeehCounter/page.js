@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useCallback, useRef } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Typography, Box, Container, useMediaQuery, CssBaseline, Select, MenuItem, FormControl, InputLabel, Button } from '@mui/material';
 import Link from 'next/link';
@@ -123,38 +123,71 @@ const IslamicPrayerCounterPage = () => {
   const [selectedDhikr, setSelectedDhikr] = useState(dhikrList[0]);
   const [selectedColor, setSelectedColor] = useState(colorOptions[0].value);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const touchStartRef = useRef(null);
+  const [isSelectOpen, setIsSelectOpen] = useState(false);
 
-  const handleIncrement = () => {
+  const handleIncrement = useCallback(() => {
     setCount((prevCount) => (prevCount === 98 ? 0 : prevCount + 1));
-  };
+  }, []);
 
   const handleDhikrChange = (event) => {
-    setSelectedDhikr(event.target.value);
-    setCount(0); // Reset count when changing dhikr
+    event.stopPropagation();
+    const newDhikr = event.target.value;
+    if (newDhikr !== selectedDhikr) {
+      setSelectedDhikr(newDhikr);
+      setCount(0); // Reset count only when changing to a different dhikr
+    }
   };
 
   const handleColorChange = (event) => {
+    event.stopPropagation();
     setSelectedColor(event.target.value);
   };
 
-  useEffect(() => {
-    const handleTouchStart = (e) => {
-      if (e.target.tagName !== 'SELECT' && e.target.tagName !== 'BUTTON') {
-        e.preventDefault();
-        handleIncrement();
+  const handleSelectOpen = () => {
+    setIsSelectOpen(true);
+  };
+
+  const handleSelectClose = () => {
+    setIsSelectOpen(false);
+  };
+
+  const handleTouchStart = useCallback((e) => {
+    if (e.target.closest('.select-box') === null && !isSelectOpen) {
+      touchStartRef.current = {
+        x: e.touches[0].clientX,
+        y: e.touches[0].clientY
+      };
+    }
+  }, [isSelectOpen]);
+
+  const handleTouchEnd = useCallback((e) => {
+    if (e.target.closest('.select-box') === null && !isSelectOpen) {
+      if (touchStartRef.current) {
+        const touchEnd = {
+          x: e.changedTouches[0].clientX,
+          y: e.changedTouches[0].clientY
+        };
+        const dx = touchEnd.x - touchStartRef.current.x;
+        const dy = touchEnd.y - touchStartRef.current.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (distance < 10) { // Threshold for tap vs. swipe
+          handleIncrement();
+        }
       }
-    };
-
-    document.addEventListener('touchstart', handleTouchStart);
-
-    return () => {
-      document.removeEventListener('touchstart', handleTouchStart);
-    };
-  }, []);
+    }
+  }, [handleIncrement, isSelectOpen]);
 
   return (
     <Box
-      onClick={(e) => e.target.tagName !== 'SELECT' && e.target.tagName !== 'BUTTON' && handleIncrement()}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      onClick={(e) => {
+        if (!isMobile && e.target.closest('.select-box') === null && !isSelectOpen) {
+          handleIncrement();
+        }
+      }}
       sx={{
         width: '100vw',
         height: '100vh',
@@ -166,7 +199,7 @@ const IslamicPrayerCounterPage = () => {
         cursor: 'pointer',
         userSelect: 'none',
         overflow: 'hidden',
-        touchAction: 'manipulation',
+        touchAction: 'pan-x pan-y',
         pt: 4,
       }}
     >
@@ -191,38 +224,46 @@ const IslamicPrayerCounterPage = () => {
           </Link>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 3 }}>
-          <FormControl sx={{ width: '48%' }}>
-            <InputLabel id="dhikr-select-label">Select Dhikr</InputLabel>
-            <Select
-              labelId="dhikr-select-label"
-              id="dhikr-select"
-              value={selectedDhikr}
-              label="Select Dhikr"
-              onChange={handleDhikrChange}
-              onClick={(e) => e.stopPropagation()}
-            >
-              {dhikrList.map((dhikr) => (
-                <MenuItem key={dhikr} value={dhikr}>{dhikr}</MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          <FormControl sx={{ width: '48%' }}>
-            <InputLabel id="color-select-label">Tasbeeh Color</InputLabel>
-            <Select
-              labelId="color-select-label"
-              id="color-select"
-              value={selectedColor}
-              label="Tasbeeh Color"
-              onChange={handleColorChange}
-              onClick={(e) => e.stopPropagation()}
-            >
-              {colorOptions.map((color) => (
-                <MenuItem key={color.name} value={color.value}>
-                  {color.name}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
+          <Box className="select-box" sx={{ width: '48%', border: '1px solid', borderColor: 'primary.main', borderRadius: 1, p: 1 }}>
+            <FormControl sx={{ width: '100%' }}>
+              <InputLabel id="dhikr-select-label">Select Dhikr</InputLabel>
+              <Select
+                labelId="dhikr-select-label"
+                id="dhikr-select"
+                value={selectedDhikr}
+                label="Select Dhikr"
+                onChange={handleDhikrChange}
+                onClick={(e) => e.stopPropagation()}
+                onOpen={handleSelectOpen}
+                onClose={handleSelectClose}
+              >
+                {dhikrList.map((dhikr) => (
+                  <MenuItem key={dhikr} value={dhikr}>{dhikr}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+          <Box className="select-box" sx={{ width: '48%', border: '1px solid', borderColor: 'primary.main', borderRadius: 1, p: 1 }}>
+            <FormControl sx={{ width: '100%' }}>
+              <InputLabel id="color-select-label">Tasbeeh Color</InputLabel>
+              <Select
+                labelId="color-select-label"
+                id="color-select"
+                value={selectedColor}
+                label="Tasbeeh Color"
+                onChange={handleColorChange}
+                onClick={(e) => e.stopPropagation()}
+                onOpen={handleSelectOpen}
+                onClose={handleSelectClose}
+              >
+                {colorOptions.map((color) => (
+                  <MenuItem key={color.name} value={color.value}>
+                    {color.name}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
         </Box>
         <Box sx={{ position: 'relative', width: '100%', height: '400px', mb: 3 }}>
           <TasbeehBeads count={count} color={selectedColor} />

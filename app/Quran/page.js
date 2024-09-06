@@ -7,9 +7,9 @@ import {
   Container, Typography, List, ListItem, ListItemText, CircularProgress,
   Paper, Box, Divider, AppBar, Toolbar, Dialog, DialogContent,
   Button, IconButton, Tabs, Tab, Select, MenuItem, FormControl, InputLabel, Card, CardContent, CardActions,
-  TextField
+  TextField, useMediaQuery
 } from '@mui/material';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme, useTheme } from '@mui/material/styles';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PauseIcon from '@mui/icons-material/Pause';
@@ -45,9 +45,17 @@ const customTheme = createTheme({
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     h2: {
       fontWeight: 700,
+      fontSize: '2.5rem',
+      '@media (max-width:600px)': {
+        fontSize: '2rem',
+      },
     },
     h5: {
       fontWeight: 500,
+      fontSize: '1.5rem',
+      '@media (max-width:600px)': {
+        fontSize: '1.2rem',
+      },
     },
   },
   components: {
@@ -103,7 +111,7 @@ const recitations = [
   { id: 9, reciter_name: 'Mohamed Siddiq al-Minshawi', style: 'Murattal' },
   { id: 8, reciter_name: 'Mohamed Siddiq al-Minshawi', style: 'Mujawwad' },
   { id: 10, reciter_name: 'Sa`ud ash-Shuraym', style: null },
-  { id: 11, reciter_name: 'Mohamed al-Tablawi', style: null }
+  { id: 11, reciter_name: 'Abdul Muhsin al-Qasim', style: null }
 ];
 
 // API functions
@@ -246,6 +254,8 @@ export default function QuranChapters() {
   const [availableTranslations, setAvailableTranslations] = useState([]);
   const [selectedTranslationId, setSelectedTranslationId] = useState('');
   const router = useRouter();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
     const loadChaptersAndTafsirs = async () => {
@@ -347,14 +357,14 @@ export default function QuranChapters() {
     <ThemeProvider theme={customTheme}>
       <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: 'background.default' }}>
         <AppBar position="static" sx={{ backgroundColor: 'primary.main' }}>
-          <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: isMobile ? 1 : 0 }}>
               <MenuBookIcon sx={{ mr: 2 }} />
               <Typography variant="h6" component="div" sx={{ fontWeight: 'bold' }}>
                 Quran Chapters
               </Typography>
             </Box>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
               <Button
                 variant="contained"
                 color="secondary"
@@ -364,12 +374,13 @@ export default function QuranChapters() {
                   color: 'primary.main',
                   '&:hover': {
                     backgroundColor: 'grey.100',
-                  }
+                  },
+                  mb: isMobile ? 1 : 0
                 }}
               >
                 Go Back to Home
               </Button>
-              <FormControl variant="outlined" sx={{ minWidth: 250 }}>
+              <FormControl variant="outlined" sx={{ minWidth: isMobile ? '100%' : 250, mb: isMobile ? 1 : 0 }}>
                 <InputLabel id="reciter-select-label" sx={{ 
                   color: 'primary.contrastText', 
                   '&.Mui-focused': { color: 'primary.contrastText' },
@@ -429,7 +440,7 @@ export default function QuranChapters() {
             </Box>
           </Toolbar>
         </AppBar>
-        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+        <Container maxWidth="lg" sx={{ mt: 4, mb: 4, px: isMobile ? 2 : 3 }}>
           <Typography variant="h2" gutterBottom align="center" sx={{ fontWeight: 'bold', color: 'primary.main', mb: 4 }}>
             Explore Quran Chapters
           </Typography>
@@ -446,7 +457,7 @@ export default function QuranChapters() {
           />
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 4, justifyContent: 'center' }}>
             {filteredChapters.map((chapter) => (
-              <Card key={chapter.id} sx={{ width: 300, display: 'flex', flexDirection: 'column' }}>
+              <Card key={chapter.id} sx={{ width: isMobile ? '100%' : 300, display: 'flex', flexDirection: 'column' }}>
                 <CardContent>
                   <Typography variant="h5" component="div" sx={{ color: 'primary.main', fontWeight: 'bold' }}>
                     {chapter.id}. {chapter.name_simple}
@@ -497,13 +508,21 @@ export default function QuranChapters() {
             </Typography>
           </Toolbar>
         </AppBar>
-        <DialogContent sx={{ backgroundColor: 'background.default' }}>
+        <DialogContent sx={{ backgroundColor: 'background.default', p: isMobile ? 2 : 3 }}>
           {selectedChapter && (
             <Container maxWidth="md">
               <Typography variant="h3" gutterBottom sx={{ color: 'primary.main', fontWeight: 'bold', mt: 4 }}>{selectedChapter.name_simple}</Typography>
               <Typography variant="h4" gutterBottom sx={{ color: 'secondary.main' }}>Arabic Name: {selectedChapter.name_arabic}</Typography>
   
-              <Tabs value={tabValue} onChange={handleTabChange} aria-label="chapter-tabs" sx={{ mt: 4, mb: 4 }}>
+              <Tabs 
+                value={tabValue} 
+                onChange={handleTabChange} 
+                aria-label="chapter-tabs" 
+                sx={{ mt: 4, mb: 4 }}
+                variant={isMobile ? "scrollable" : "standard"}
+                scrollButtons={isMobile ? "auto" : "auto"}
+                allowScrollButtonsMobile
+              >
                 <Tab label="Info" />
                 <Tab label="Short Info" />
                 <Tab label="Verses" />
