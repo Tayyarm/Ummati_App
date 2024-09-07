@@ -129,7 +129,7 @@ const AsmaAlHusna = () => {
   useEffect(() => {
     const fetchNames = async () => {
       try {
-        const response = await axios.get('http://api.aladhan.com/v1/asmaAlHusna');
+        const response = await axios.get('https://api.aladhan.com/v1/asmaAlHusna');
         setNames(response.data.data);
         setLoading(false);
       } catch (err) {
